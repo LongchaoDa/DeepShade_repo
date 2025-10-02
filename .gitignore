@@ -1,24 +1,29 @@
-
 # =========================
-# Folders
+# Folders to ignore
 # =========================
-ControlNet_edge_contra2
-.history/**
-# =========================
-# Whitelist only .py and .ipynb elsewhere
-# =========================
-# Ignore everything by default
-*
-# Allow directories so negations below can match inside them
-!*/
-# Keep only these files
-!*.py
-!*.ipynb
-# Keep housekeeping files
-!.gitignore
-!.gitattributes
-!.gitkeep
-
-# Optional: still ignore Jupyter checkpoints
+ControlNet_edge_contra2/
+.history/
 .ipynb_checkpoints/
 **/.ipynb_checkpoints/
+__pycache__/
+**/__pycache__/
+
+# =========================
+# File types to ignore (from your stats)
+# =========================
+*.png
+*.pyc
+*.json
+*.csv
+*.sample
+*.ckpt
+*.md
+*.yaml
+*.yml
+*.sh
+*.txt
+*.zip
+*.ttf
+*.rev
+*.pack
+*.idx

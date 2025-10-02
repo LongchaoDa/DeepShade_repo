@@ -3,7 +3,7 @@
 # Folders
 # =========================
 ControlNet_edge_contra2
-
+.history/
 # =========================
 # Whitelist only .py and .ipynb elsewhere
 # =========================

@@ -1,1 +1,24 @@
+
+# =========================
+# Folders
+# =========================
 ControlNet_edge_contra2
+
+# =========================
+# Whitelist only .py and .ipynb elsewhere
+# =========================
+# Ignore everything by default
+*
+# Allow directories so negations below can match inside them
+!*/
+# Keep only these files
+!*.py
+!*.ipynb
+# Keep housekeeping files
+!.gitignore
+!.gitattributes
+!.gitkeep
+
+# Optional: still ignore Jupyter checkpoints
+.ipynb_checkpoints/
+**/.ipynb_checkpoints/

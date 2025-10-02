@@ -13,7 +13,7 @@ __pycache__/
 # =========================
 *.png
 *.pyc
-*.json
+# *.json
 *.csv
 *.sample
 *.ckpt
@@ -27,3 +27,4 @@ __pycache__/
 *.rev
 *.pack
 *.idx
+ControlNet/.git
